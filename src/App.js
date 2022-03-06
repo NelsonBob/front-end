@@ -28,6 +28,7 @@ const  UserProfiles =() => {
           <br/>
           
           <h1>{userProfile.username} </h1>
+          <h2>{userProfile.username} </h2>
           <p>{userProfile.userProfileId}</p>
           <Dropzone {...userProfile}/>
           <br/>
