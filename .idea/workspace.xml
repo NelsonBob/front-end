@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1444c221-20cf-437c-b5b1-e3847502c5a7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +22,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Documents/aws/aws-image-upload" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -37,7 +36,8 @@
       <option name="presentableId" value="Default" />
       <updated>1646406010925</updated>
       <workItem from="1646406013504" duration="2190000" />
-      <workItem from="1646569067432" duration="849000" />
+      <workItem from="1646569067432" duration="3396000" />
+      <workItem from="1646606571100" duration="964000" />
     </task>
     <servers />
   </component>

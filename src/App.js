@@ -9,7 +9,7 @@ const  UserProfiles =() => {
   const [userProfiles,setUserProfiles] = useState([]);
 
   const fetchUserProfiles = () => {
-    axios.get("https://secure-everglades-21857.herokuapp.com/api/v1/user-profile").then(res => {
+    axios.get("https://back-everglades-21857.herokuapp.com//api/v1/user-profile").then(res => {
       console.log(res);
       const data = res.data;
       setUserProfiles(res.data);
@@ -22,7 +22,7 @@ const  UserProfiles =() => {
   return userProfiles.map((userProfile,index) => {
     return (
         <div key={index}>
-          {  userProfile.userProfileId ? ( <img src = {`https://secure-everglades-21857.herokuapp.com/api/v1/user-profile/${userProfile.userProfileId}/image/download`} />) : null}
+          {  userProfile.userProfileId ? ( <img src = {`https://back-everglades-21857.herokuapp.com//api/v1/user-profile/${userProfile.userProfileId}/image/download`} />) : null}
           
           <br/>
           <br/>
@@ -47,7 +47,7 @@ function Dropzone({userProfileId}) {
     formData.append("file",file);
 
     axios.post(
-     `https://secure-everglades-21857.herokuapp.com/api/v1/user-profile/${userProfileId}/image/upload`,
+     `https://back-everglades-21857.herokuapp.com//api/v1/user-profile/${userProfileId}/image/upload`,
     formData,
     {
       headers:{
